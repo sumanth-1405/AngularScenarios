@@ -5,8 +5,8 @@ import { ChildComponent } from './child/child.component';
 @NgModule({
   imports: [
     CommonModule,
-    ChildComponent
   ],
-  declarations: [ChildComponent]
+  declarations: [ChildComponent],
+  exports:[ChildComponent]
 })
 export class Scenario1Module { }
