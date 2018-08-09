@@ -1,7 +1,7 @@
 import { Component} from '@angular/core';
 
 @Component({
-  selector: 'app-parent',
+  selector: 'app-s3-parent',
   templateUrl: './parent.component.html'
 })
 export class ParentComponent {
